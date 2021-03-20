@@ -1,24 +1,28 @@
 <html>
 <head>
-<title>Acerca de mi</title>
-<style>
-      h1 {
-        color: gold;
-        background-color: silver;
-        border: 3px solid brown;
-      }
+  <title>Sobre mi</title>
+  <meta charset="utf-8"/>
+  <link rel="Style" href="Assets/css/Style.css"/>
+</head>  
+<body>
 
-      p {
-        color: lime;
-      }
-    </style>    
-<body bgcolor="Green">
+  <div id="navbar">
+    <a href="Index.html">Inicio</a>
+    <a href="Proyecto.html">Proyecto</a>
+    <a href="Tareas.html">Tareas</a>
+    <a href="Acerca de mi.html">Sobre mi</a>
+  </div>
 
 <h1 align="right"><b><font face="Georgia">Acerca de mi</font></b></h1>
-	<p><font face="Verdana">Mi nombre es Uziel Moreno Andrade, tengo 18 años actualmemte, estudio ingeniería en sistemas computacionales en la Universidad Iberoamericana Puebla (IBERO). Me gustan los autos, los videojuegos y todo lo relacionado con la tecnología principalmente. <b><i><u>Esto es de manera general.</u></i></b></font></p>
+	<p><font face="Verdana">Mi nombre es Uziel Moreno Andrade, tengo 21 años actualmente y soy originario de Puebla, México.
+    Estudio ingeniería en sistemas computacionales en la Universidad Iberoamericana Puebla (IBERO). Me gustan los autos, los videojuegos y todo lo relacionado con la tecnología principalmente. <b><i><u>Esto es de manera general.</u></i></b></font></p>
 
-	<p align="center"><img src="data:image/png;base64,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"></p>
+	<p align="center"><img src="Images/yo.jpg"></p>
 
+  <footer>
+		&copy; 2020 Uziel Moreno Andrade<br>
+		Diseño de software<br>
+		Contacto: <a href="mailto:uziel.moreno@iberopuebla.mx">uziel.moreno@iberopuebla.mx</a>
+	</footer>
 </body>
-</head>
 </html>
