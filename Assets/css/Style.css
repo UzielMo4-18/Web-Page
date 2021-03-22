@@ -19,6 +19,10 @@ p{
     font-size: 18px;
     text-align: left;
 }
+table{
+    border: 5px solid rgb(118, 81, 188);
+    background-color: #FFC0CB;
+}
 #navbar {
     overflow: hidden;
     background-color: #333;
